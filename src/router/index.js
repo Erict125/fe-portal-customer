@@ -8,16 +8,21 @@ const routes = [
         name: 'blog',
         component: () => import( /* webpackChunkName: "home" */ '../components/Blog.vue')
     },
-    // {
-    //     path: '/',
-    //     name: 'home',
-    //     component: () => import( /* webpackChunkName: "home" */ '../components/Hero.vue')
-    // },
-    // {
-    //     path: '/contact',
-    //     name: 'contact',
-    //     component: () => import( /* webpackChunkName: "home" */ '../components/Contact.vue')
-    // },
+    {
+        path: '/',
+        name: 'home',
+        component: () => import( /* webpackChunkName: "home" */ '../components/Hero.vue')
+    },
+    {
+        path: '/contact',
+        name: 'contact',
+        component: () => import( /* webpackChunkName: "home" */ '../components/Contact.vue')
+    },
+    {
+        path: '/product',
+        name: 'product',
+        component: () => import( /* webpackChunkName: "home" */ '../components/product.vue')
+    },
     // {
     //     path: '/posts',
     //     name: 'posts.index',

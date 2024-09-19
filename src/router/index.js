@@ -18,11 +18,11 @@ const routes = [
         name: 'contact',
         component: () => import( /* webpackChunkName: "home" */ '../components/Contact.vue')
     },
-    {
-        path: '/product',
-        name: 'product',
-        component: () => import( /* webpackChunkName: "home" */ '../components/product.vue')
-    },
+    // {
+    //     path: '/product',
+    //     name: 'product',
+    //     component: () => import( /* webpackChunkName: "home" */ '../components/product.vue')
+    // },
     // {
     //     path: '/posts',
     //     name: 'posts.index',
